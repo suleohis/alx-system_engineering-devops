@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd | uniq 
+grep -i "root" /etc/passwd 
